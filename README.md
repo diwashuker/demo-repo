@@ -75,6 +75,13 @@ Then press F5 in VS Code to launch a new instance with the extension loaded.
 
 Contributions welcome! Please read the main project documentation.
 
+## Local Development Checklist
+
+1. Install the extension dependencies with `npm install`.
+2. Open the project in VS Code and press `F5` to launch the Extension Development Host.
+3. Open a `.np` file to test syntax highlighting, snippets, and the run command.
+4. Package the extension with `vsce package` when preparing a release.
+
 ## License
 
 MIT License - see LICENSE file for details.
